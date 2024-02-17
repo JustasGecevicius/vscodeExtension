@@ -14,8 +14,9 @@
   "contributes": {
     "commands": [
       {
-        "command": "variable-debugger.helloWorld",
-        "title": "Hello World"
+        "command": "variable-debugger.find_variable",
+        "category": "Custom Variable Search",
+        "title": "Variable Search"
       }
     ]
   },
