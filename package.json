@@ -2,7 +2,7 @@
   "name": "variable-debugger",
   "displayName": "Variable Debugger",
   "description": "A debugger to show what path the variable follows through an application",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.86.0"
   },
@@ -11,6 +11,11 @@
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JustasGecevicius/vscodeExtension"
+  },
   "contributes": {
     "commands": [
       {
